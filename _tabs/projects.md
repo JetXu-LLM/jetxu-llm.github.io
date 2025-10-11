@@ -58,3 +58,4 @@ order: 2
 **Quick Start:**
 ```bash
 pip install llama-github
+```
