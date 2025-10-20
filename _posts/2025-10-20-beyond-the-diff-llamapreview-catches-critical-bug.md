@@ -19,9 +19,9 @@ This is why I built LlamaPReview around a different principle: **evidence-driven
 
 ## A Real Bug That Slipped Past Human Review
 
-![LlamaPReview Review Screenshot](/assets/img/posts/2025-10-20-llamapreview/sample.png)
-
 Let me show you what deep context looks like in practice.
+
+![LlamaPReview Review Screenshot](/assets/img/posts/2025-10-20-llamapreview/sample.png)
 
 A developer submitted [PR #951](https://github.com/vanna-ai/vanna/pull/951) to **Vanna.ai**, a popular open-source text-to-SQL tool with 20,000+ stars. The change added Databricks integration—156 lines of well-documented code supporting two connection engines (SQL warehouse and ODBC).
 
@@ -62,9 +62,6 @@ This is the kind of bug that causes 3 AM incidents—and the kind that surface-l
 ## What "Deep Context" Actually Means
 
 The difference comes down to what the AI can see:
-
-![Traditional AI Review vs Deep Context Analysis](/assets/img/posts/2025-10-20-llamapreview/cover.png)
-_Comparison: Traditional diff-based review vs repository-wide context analysis_
 
 **Traditional AI Review:**
 - **Analyzes:** The diff (changed lines only)
