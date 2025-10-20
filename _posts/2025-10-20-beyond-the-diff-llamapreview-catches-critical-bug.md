@@ -1,8 +1,8 @@
 ---
 title: "Beyond the Diff: How Deep Context Analysis Caught a Critical Bug in a 20K-Star Open Source Project"
 date: 2025-10-20 00:00:00 +0800
-categories: [AI/ML, Software Engineering]
-tags: [llamapreview, code-review, llm, graph-rag, open-source, developer-tools]
+categories: [Developer Productivity, AI Engineering]
+tags: [llamapreview, ai-code-review, github-pr-automation, graph-rag, code-quality, engineering-efficiency, context-aware-ai, open-source-tools]
 description: "How LlamaPReview's repository-wide context analysis caught a production-breaking bug that human reviewers missed—and why the future of code understanding lies in graph-based RAG."
 image:
   path: /assets/img/posts/2025-10-20-llamapreview/cover.png
