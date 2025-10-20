@@ -8,6 +8,7 @@ image:
   path: /assets/img/posts/2025-10-20-llamapreview/cover.png
   alt: "Traditional AI Review vs Deep Context Analysis comparison"
 pin: true
+mermaid: true
 ---
 
 If you lead an engineering team, you've probably felt this: you adopt an AI code reviewer hoping to catch real issues, but instead it floods PRs with style suggestions and variable naming tips. Your developers start ignoring it. The signal drowns in noise.
