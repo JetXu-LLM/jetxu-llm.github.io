@@ -95,7 +95,7 @@ The goal isn't more comments—it's surfacing the **one thing** that matters.
 
 When I launched LlamaPReview on [Hacker News in October 2024](https://news.ycombinator.com/item?id=41996859), I expected some polite feedback from a few dozen developers. Maybe a handful of installations.
 
-Instead, the post hit **#28 on the front page**. Over 100 upvotes. 42 comments debating what "good code review" really means. And then the installations started rolling in—and they haven't stopped.
+Instead, the post hit [#28 on Hacker News Daily front page](https://news.ycombinator.com/front?day=2024-10-30). Over 100 upvotes. 42 comments debating what "good code review" really means. And then the installations started rolling in—and they haven't stopped.
 
 Over the following months, I iterated based on user feedback—adding deeper dependency analysis, inline comments, and architectural diagrams. By August 2025, the Advanced tier was ready, and the response validated something important: developers don't want more AI noise. They want tools that respect their time and surface what truly matters.
 
@@ -115,7 +115,7 @@ One pattern I didn't anticipate: teams using reviews as **onboarding tools**. Ne
 The current approach has proven its value, but I'm honest about where it breaks down. These aren't just technical challenges—they're fundamental limitations of the architecture:
 
 **1. Scalability ceiling**  
-For repositories with 100K+ lines of code, building comprehensive dependency maps becomes computationally expensive. Analysis times can stretch to several minutes. We've optimized aggressively—caching strategies, incremental analysis, parallel processing—but there's a hard limit to how far traditional dependency tracing can scale.
+For repositories with 100K+ lines of code, building comprehensive dependency maps becomes computationally expensive. Analysis times can stretch to more than 10 minutes. We've optimized aggressively—caching strategies, incremental analysis, parallel processing—but there's a hard limit to how far traditional dependency tracing can scale.
 
 **2. Cross-repository blindness**  
 If your microservices architecture spans multiple repos, we can't trace dependencies across the boundary. A breaking API change in Service A won't trigger warnings in Service B's repo. For teams with 10+ interconnected services, this is a real gap.
@@ -172,4 +172,4 @@ That's the future I'm working toward. And I believe the path runs through graph-
 
 I'll be publishing more about the Graph RAG architecture, benchmarks, and a live demo in the coming weeks. Follow along if you're interested in the future of code understanding.
 
-*LlamaPReview is available now at the [GitHub Marketplace](https://github.com/marketplace/llamapreview). The Community tier is free forever for open-source projects.*
+*LlamaPReview is available now at the [GitHub Marketplace](https://jetxu-llm.github.io/LlamaPReview-site). The Community/Advanced tier is free forever for all repos/open-source projects.*
