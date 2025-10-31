@@ -9,6 +9,18 @@ image:
 description: "Most AI code review tools generate 10-20 comments per PR. The problem? 80% are noise. Here's a framework for measuring signal-to-noise ratio in code reviews - and why it matters more than you think."
 ---
 
+> **TL;DR:** Think this post has low signal-to-noise ratio? Here's the framework, then you decide:
+>
+> **How to measure AI code review quality (30 seconds):**  
+> Every comment falls into 3 tiers by **severity**:
+> - **Tier 1:** Would cause production failures (crashes, breaking changes, security holes)  
+> - **Tier 2:** Would cause maintainability issues (architectural violations, performance regressions)  
+> - **Tier 3:** Subjective noise (style suggestions, "consider using const here")  
+> 
+> **Signal Ratio = (Tier 1 + Tier 2) / Total.** If <60%, your tool is a noise generator.
+>
+> **The challenge:** Section 4 analyzes 3 real PRs. One tool left 14 comments, missed every critical bug (21% signal). Another left 18 comments, caught a bug that would crash the entire job scheduler (61% signal). Now ask: would YOUR tool have caught it? If you don't know, keep reading. If you're sure it would, you're either using a great tool or fooling yourself ^-^
+
 ## The Industry's Dirty Secret
 
 You open a PR. Your AI code review tool leaves 15 comments:
