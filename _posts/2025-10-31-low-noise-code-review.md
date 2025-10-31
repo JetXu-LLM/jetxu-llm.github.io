@@ -215,7 +215,7 @@ The future of AI code review isn't about more comments. It's about **better comm
 
 By focusing on signal-to-noise ratio, we can build tools that save developers time, catch critical issues, and improve team velocity.  
 
-If you're interested in seeing how this works in practice, LlamaPReview is open source and available for public repositories: [jetxu-llm.github.io/LlamaPReview-site](https://jetxu-llm.github.io/LlamaPReview-site/)
+If you're interested in seeing how this works in practice, LlamaPReview totally free & available for public repositories: [LlamaPReview](https://jetxu-llm.github.io/LlamaPReview-site/)
 
 ---
 
