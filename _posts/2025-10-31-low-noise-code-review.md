@@ -327,17 +327,17 @@ If you're interested in exploring this approach, LlamaPReview is open source and
 
 ## References
 
-<a id="ref-1"></a>
-[1]: Qodo.ai (2025). "AI Code Review and the Best AI Code Review Tools in 2025." Research on false positive rates in AI code review tools. Available at: [https://www.qodo.ai/blog/ai-code-review/](https://www.qodo.ai/blog/ai-code-review/)
+<span id="ref-1"></span>
+**[1]** Qodo.ai (2025). "AI Code Review and the Best AI Code Review Tools in 2025." Research on false positive rates in AI code review tools. Available at: [https://www.qodo.ai/blog/ai-code-review/](https://www.qodo.ai/blog/ai-code-review/)
 
-<a id="ref-2"></a>
-[2]: arXiv (2025). "Rethinking Code Review Workflows with LLM Assistance." Large-scale study analyzing 22,000+ AI code review comments across 178 repositories. Available at: [https://arxiv.org/pdf/2505.16339](https://arxiv.org/pdf/2505.16339)
+<span id="ref-2"></span>
+**[2]** arXiv (2025). "Rethinking Code Review Workflows with LLM Assistance." Large-scale study analyzing 22,000+ AI code review comments across 178 repositories. Available at: [https://arxiv.org/pdf/2505.16339](https://arxiv.org/pdf/2505.16339)
 
-<a id="ref-3"></a>
-[3]: Medium (2024). "Context-Aware Code Review: Moving from Static Checks to Intelligent Risk Analysis." Analysis of signal vs noise in code review tools. Available at: [https://medium.com/@saikakarla97/context-aware-code-review-moving-from-static-checks-to-intelligent-risk-analysis-d87f6e6b3b88](https://medium.com/@saikakarla97/context-aware-code-review-moving-from-static-checks-to-intelligent-risk-analysis-d87f6e6b3b88)
+<span id="ref-3"></span>
+**[3]** Medium (2024). "Context-Aware Code Review: Moving from Static Checks to Intelligent Risk Analysis." Analysis of signal vs noise in code review tools. Available at: [https://medium.com/@saikakarla97/context-aware-code-review-moving-from-static-checks-to-intelligent-risk-analysis-d87f6e6b3b88](https://medium.com/@saikakarla97/context-aware-code-review-moving-from-static-checks-to-intelligent-risk-analysis-d87f6e6b3b88)
 
-<a id="ref-4"></a>
-[4]: CodeAnt.ai (2024/2025). "Are Your Code Reviews Helping or Hurting Delivery?" DORA research program findings on code review impact. Available at: [https://www.codeant.ai/blogs/code-review-signals](https://www.codeant.ai/blogs/code-review-signals)
+<span id="ref-4"></span>
+**[4]** CodeAnt.ai (2024/2025). "Are Your Code Reviews Helping or Hurting Delivery?" DORA research program findings on code review impact. Available at: [https://www.codeant.ai/blogs/code-review-signals](https://www.codeant.ai/blogs/code-review-signals)
 
-<a id="ref-5"></a>
-[5]: LlamaPReview (2025). Internal case study analysis of three production PRs (#3044, #3005, #2999) from the bluewave-labs/Checkmate repository. Repository available at: [https://github.com/bluewave-labs/checkmate](https://github.com/bluewave-labs/checkmate)
+<span id="ref-5"></span>
+**[5]** LlamaPReview (2025). Internal case study analysis of three production PRs (#3044, #3005, #2999) from the bluewave-labs/checkmate repository. Repository available at: [https://github.com/bluewave-labs/checkmate](https://github.com/bluewave-labs/checkmate)
