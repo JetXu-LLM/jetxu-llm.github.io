@@ -7,7 +7,6 @@ description: "How LlamaPReview's repository-wide context analysis caught a produ
 image:
   path: /assets/img/posts/2025-10-20-llamapreview/cover.png
   alt: "Traditional AI Review vs Deep Context Analysis comparison"
-pin: true
 mermaid: true
 ---
 
