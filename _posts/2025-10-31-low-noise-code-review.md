@@ -1,12 +1,12 @@
 ---
-title: "Why 'Low Noise' Matters More Than You Think: A Framework for Evaluating AI Code Review Tools"
+title: "Drowning in AI Code Review Noise? A Framework to Measure Signal vs. Noise"
 date: 2025-10-31 09:30:00 +0800
 categories: [Developer Productivity, AI Engineering]
 tags: [llamapreview, ai-code-review, code-quality, engineering-efficiency, context-aware-ai]
 image:
   path: /assets/img/posts/2025-10-31-low-noise/cover.png
   alt: "The difference between noisy and signal-focused code review"
-description: "Most AI code review tools generate 10-20 comments per PR. The problem? 80% are noise. Here's a framework for measuring signal-to-noise ratio in code reviews—and why it matters more than you think."
+description: "Most AI code review tools generate 10-20 comments per PR. The problem? 80% are noise. Here's a framework for measuring signal-to-noise ratio in code reviews - and why it matters more than you think."
 ---
 
 ## The Industry's Dirty Secret
