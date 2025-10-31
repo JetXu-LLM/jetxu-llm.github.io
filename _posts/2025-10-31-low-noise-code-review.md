@@ -25,11 +25,11 @@ Somewhere in there are 2 critical bugs that would crash production. **Will you f
 ![The Noise Problem](/assets/img/posts/2025-10-31-low-noise/noise-problem-illustration.png)
 _Critical bugs hidden among trivial suggestions - the core problem of noisy AI reviews_
 
-Research analyzing 22,000+ AI code review comments across 178 repositories found that adoption rates vary wildly—many comments are simply ignored. The study revealed that **concise, focused comments were far more likely to lead to actual code changes** [2]. 
+Research analyzing 22,000+ AI code review comments across 178 repositories found that adoption rates vary wildly—many comments are simply ignored. The study revealed that **concise, focused comments were far more likely to lead to actual code changes** [[2]](#ref-2). 
 
 Translation: when you spam developers with suggestions, they ignore everything—including the critical ones.
 
-The DORA research program found that organizations shortening code review times see better delivery performance. **Excessive review overhead, including noisy AI suggestions, directly harms team velocity** [4].
+The DORA research program found that organizations shortening code review times see better delivery performance. **Excessive review overhead, including noisy AI suggestions, directly harms team velocity** [[4]](#ref-4).
 
 The problem isn't that AI tools don't work. It's that they work too much.
 
@@ -49,13 +49,13 @@ It should NOT spam you with:
 - Micro-optimizations ("consider using const here")
 - Subjective opinions ("this could be refactored")
 
-**Every comment should be worth interrupting a developer's flow.** If it's not, it's noise [3].
+**Every comment should be worth interrupting a developer's flow.** If it's not, it's noise [[3]](#ref-3).
 
 ---
 
 ## The Real Cost: Three PR Case Studies
 
-Let me show you three real PRs where I compared how different AI tools reviewed the same code. These are from an actual open-source project (bluewave-labs/Checkmate) [5].
+Let me show you three real PRs where I compared how different AI tools reviewed the same code. These are from an actual open-source project (bluewave-labs/Checkmate) [[5]](#ref-5).
 
 ### Case 1: The Silent Killer [PR #3044 - 21 lines](https://github.com/bluewave-labs/Checkmate/pull/3044)
 
@@ -102,7 +102,7 @@ If this PR merged with only CodeRabbit's review, the monitoring system would fai
 
 **Here's the problem:** When a developer sees 10 suggestions—8 about code style, 2 about critical bugs—what happens?
 
-**Suggestion fatigue.** Research shows they might skip all of them, including the critical ones [2], [4].
+**Suggestion fatigue.** Research shows they might skip all of them, including the critical ones [[2]](#ref-2), [[4]](#ref-4).
 
 ---
 
@@ -149,9 +149,9 @@ Most AI code review tools follow this pattern:
 - Security scanners don't understand business logic: "SQL injection risk" might be a false positive in a read-only query
 - LLMs don't understand your codebase: "this could be refactored" might break established patterns
 
-Result: **60-80% false positive rate** [1], [3].
+Result: **60-80% false positive rate** [[1]](#ref-1), [[3]](#ref-3).
 
-Industry experts confirm: "Once you see how much signal emerges when you remove the noise, you'll never go back to static code review again" [3].
+Industry experts confirm: "Once you see how much signal emerges when you remove the noise, you'll never go back to static code review again" [[3]](#ref-3).
 
 ---
 
@@ -216,7 +216,7 @@ This prompt optimization alone reduced our false positive rate from ~60% to ~15%
 
 One challenge we're actively exploring is **codebase pattern learning**. 
 
-**The problem:** What if your team uses `any` types in 50 places? A generic tool will flag every instance. But if you suddenly use `any` in a security-critical authentication function, **that's a signal** [3].
+**The problem:** What if your team uses `any` types in 50 places? A generic tool will flag every instance. But if you suddenly use `any` in a security-critical authentication function, **that's a signal** [[3]](#ref-3).
 
 **The solution direction:** Before flagging an issue, check if it matches existing patterns:
 - "Is this pattern used elsewhere?" → If yes, don't suggest changing it
@@ -239,14 +239,14 @@ We chose option 2, because the goal is **actionable feedback**, not aspirational
 
 ## The Data: Why This Matters
 
-Research on 22,000+ AI code review comments found [2]:
+Research on 22,000+ AI code review comments found [[2]](#ref-2):
 
 - ✅ Concise comments → **3x more likely to be acted upon**
 - ✅ Code-snippet-containing comments → **2.5x more effective**
 - ✅ Hunk-level tools (focused reviews) → **outperform file-level tools**
 - ✅ Manually-triggered reviews → **higher adoption than automatic spam**
 
-DORA research confirms: **shorter code review times correlate with better delivery performance**. Noise directly harms velocity [4].
+DORA research confirms: **shorter code review times correlate with better delivery performance**. Noise directly harms velocity [[4]](#ref-4).
 
 ---
 
@@ -265,7 +265,7 @@ For a team of 10 developers:
 - **330 hours/month wasted**
 - At $100/hour = **$33,000/month in lost productivity**
 
-Reducing review time from 20 minutes to 5 minutes saves **$26,400/month** [4].
+Reducing review time from 20 minutes to 5 minutes saves **$26,400/month** [[4]](#ref-4).
 
 But the real cost isn't just time—it's **attention**. When developers learn to ignore AI suggestions, they miss the critical ones too.
 
@@ -298,16 +298,16 @@ The future of AI code review isn't about more comments. It's about **better comm
 
 From Reddit discussions on AI code review tools:
 
-> "Most tools just spam the PR with 'consider adding a comment here.' I want tools that catch bugs, not act like a linter." [3]
+> "Most tools just spam the PR with 'consider adding a comment here.' I want tools that catch bugs, not act like a linter." [[3]](#ref-3)
 
-> "The problem is noise. I ignore 90% of suggestions, then miss the 10% that matter." [3]
+> "The problem is noise. I ignore 90% of suggestions, then miss the 10% that matter." [[3]](#ref-3)
 
 I built LlamaPReview because I believe senior developers' time is the most valuable resource. Every comment must be:
 - **Actionable**: clear what needs to change
 - **High-impact**: affects functionality, not style  
 - **Contextual**: understands the PR's purpose
 
-I'd rather give you 3 critical suggestions than 15 mixed-quality ones [2].
+I'd rather give you 3 critical suggestions than 15 mixed-quality ones [[2]](#ref-2).
 
 ---
 
@@ -327,12 +327,17 @@ If you're interested in exploring this approach, LlamaPReview is open source and
 
 ## References
 
-[1]: Qodo.ai (2025). "AI Code Review and the Best AI Code Review Tools in 2025." Research on false positive rates in AI code review tools. Available at: https://www.qodo.ai/blog/ai-code-review/
+<a id="ref-1"></a>
+[1]: Qodo.ai (2025). "AI Code Review and the Best AI Code Review Tools in 2025." Research on false positive rates in AI code review tools. Available at: [https://www.qodo.ai/blog/ai-code-review/](https://www.qodo.ai/blog/ai-code-review/)
 
-[2]: arXiv (2025). "Rethinking Code Review Workflows with LLM Assistance." Large-scale study analyzing 22,000+ AI code review comments across 178 repositories. Available at: https://arxiv.org/pdf/2505.16339
+<a id="ref-2"></a>
+[2]: arXiv (2025). "Rethinking Code Review Workflows with LLM Assistance." Large-scale study analyzing 22,000+ AI code review comments across 178 repositories. Available at: [https://arxiv.org/pdf/2505.16339](https://arxiv.org/pdf/2505.16339)
 
-[3]: Medium (2024). "Context-Aware Code Review: Moving from Static Checks to Intelligent Risk Analysis." Analysis of signal vs noise in code review tools. Available at: https://medium.com/@saikakarla97/context-aware-code-review-moving-from-static-checks-to-intelligent-risk-analysis-d87f6e6b3b88
+<a id="ref-3"></a>
+[3]: Medium (2024). "Context-Aware Code Review: Moving from Static Checks to Intelligent Risk Analysis." Analysis of signal vs noise in code review tools. Available at: [https://medium.com/@saikakarla97/context-aware-code-review-moving-from-static-checks-to-intelligent-risk-analysis-d87f6e6b3b88](https://medium.com/@saikakarla97/context-aware-code-review-moving-from-static-checks-to-intelligent-risk-analysis-d87f6e6b3b88)
 
-[4]: CodeAnt.ai (2024/2025). "Are Your Code Reviews Helping or Hurting Delivery?" DORA research program findings on code review impact. Available at: https://www.codeant.ai/blogs/code-review-signals
+<a id="ref-4"></a>
+[4]: CodeAnt.ai (2024/2025). "Are Your Code Reviews Helping or Hurting Delivery?" DORA research program findings on code review impact. Available at: [https://www.codeant.ai/blogs/code-review-signals](https://www.codeant.ai/blogs/code-review-signals)
 
-[5]: LlamaPReview case study analysis of PR #3044, #3005, and #2999 from bluewave-labs/Checkmate repository (October 2025). Available at: https://github.com/bluewave-labs/checkmate
+<a id="ref-5"></a>
+[5]: LlamaPReview (2025). Internal case study analysis of three production PRs (#3044, #3005, #2999) from the bluewave-labs/Checkmate repository. Repository available at: [https://github.com/bluewave-labs/checkmate](https://github.com/bluewave-labs/checkmate)
