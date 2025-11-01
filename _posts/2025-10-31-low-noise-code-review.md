@@ -247,3 +247,8 @@ If you're interested in seeing how this works in practice, LlamaPReview totally 
 
 <span id="ref-5"></span>
 **[5]** LlamaPReview (2025). Internal case study analysis of three production PRs (#3044, #3005, #2999) from the bluewave-labs/checkmate repository. Repository available at: [https://github.com/bluewave-labs/checkmate](https://github.com/bluewave-labs/checkmate)
+
+---
+
+**Thoughts on AI coding or repository intelligence?**  
+Let's connect — [LinkedIn](https://www.linkedin.com/in/jiantongxu/).

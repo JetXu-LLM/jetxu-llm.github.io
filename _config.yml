@@ -38,12 +38,12 @@ github:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: Jet Xu
+  name: Jet Xu • Open to discuss
   email: voldemort.xu@foxmail.com
   links:
     # The first element serves as the copyright owner's link
-    - https://github.com/jetxu-llm
     - https://www.linkedin.com/in/jiantongxu/
+    - https://github.com/jetxu-llm
     # Uncomment below to add more social links
     # - https://twitter.com/your_handle
     # - https://medium.com/@your_username
