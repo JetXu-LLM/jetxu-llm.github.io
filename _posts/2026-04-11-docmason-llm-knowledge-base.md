@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Bridging the Agentic Gap: Why Your Messy Mac Files Need an LLM Knowledge Base (And Introducing DocMason)"
+title: "Bridging the Agentic Gap: Why Your Messy Office Files Need an LLM Knowledge Base (And Introducing DocMason)"
 date: 2026-04-11 10:00:00 +0000
 categories: [AI, Productivity]
 tags: [DocMason, LLM, Knowledge Base, MacOS, ChatGPT Plus]
