@@ -14,15 +14,13 @@ timezone: Asia/Shanghai
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Jet Xu's Engineering Blog
+title: Jet Xu | DocMason
 
-tagline: LLM Context Engineering | AI-Powered Code Intelligence | Repository Knowledge Graphs
+tagline: Local Knowledge Bases | Evidence-First AI | Serious Document Work
 
 description: >-
-  Personal engineering blog by Jet Xu, focusing on LLM context engineering for AI agents,
-  AI-powered code review systems, and repository knowledge graph-enabled RAG architectures.
-  Exploring practical applications of Graph RAG in software development tooling,
-  with deep dives into projects like llama-github and LlamaPReview.
+  Jet Xu writes about DocMason, local-first knowledge bases, and the systems needed
+  to turn messy private files into reliable, evidence-backed context for serious work.
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
@@ -38,12 +36,13 @@ github:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: Jet Xu • Open to discuss
-  email: voldemort.xu@foxmail.com
+  name: Jet Xu
+  email: jiantong.xu@foxmail.com
   links:
     # The first element serves as the copyright owner's link
     - https://www.linkedin.com/in/jiantongxu/
     - https://github.com/jetxu-llm
+    - https://github.com/JetXu-LLM/DocMason
     # Uncomment below to add more social links
     # - https://twitter.com/your_handle
     # - https://medium.com/@your_username

@@ -6,7 +6,7 @@ order: 4
 
 <div align="center">
   <h2>Hi, I'm Jet Xu.</h2>
-  <p><strong>Turning complex documents and code into reliable context for AI.</strong></p>
+  <p><strong>Turning private work files and code into reliable, evidence-backed context for AI.</strong></p>
   <p>Systems Architect | 15+ years building mission-critical infrastructure | AI Harnessing & Context Engineering</p>
   <p>
     <a href="https://github.com/JetXu-LLM/DocMason">DocMason</a> |
@@ -18,7 +18,7 @@ order: 4
 
 > Reasoning is improving fast. Reliable context is still the bottleneck.
 
-- **Now**: building [DocMason](https://github.com/JetXu-LLM/DocMason), a local-first engine for deep document understanding.
+- **Now**: building [DocMason](https://github.com/JetXu-LLM/DocMason), a local-first, evidence-first knowledge base for AI-assisted deep research over private work files.
 - **Before**: built code-intelligence systems across [llama-github](https://github.com/JetXu-LLM/llama-github), [LlamaPReview](https://jetxu-llm.github.io/LlamaPReview-site/), and [repo-graph-rag](https://github.com/JetXu-LLM/repo-graph-rag).
 - **Direction**: the Mason ecosystem—moving from deep document analysis to generating native, consulting-grade presentations.
 
@@ -28,7 +28,7 @@ Over 15 years of architecting mission-critical systems, the recurring failure mo
 
 ## Current Focus
 
-[DocMason](https://github.com/JetXu-LLM/DocMason) is my current open-source focus: a local-first, provenance-first engine for deep document understanding. It is not a document chatbot. It compiles unstructured artifacts into knowledge infrastructure that agents can actually use.
+[DocMason](https://github.com/JetXu-LLM/DocMason) is my current open-source focus: a local-first, provenance-first knowledge base for AI-assisted deep research over private work files. It is not a document chatbot. It compiles unstructured artifacts into knowledge infrastructure that agents can actually use. Its native operating pattern is simple: the repo is the app, and Codex is the runtime.
 
 Core architectural priorities:
 
@@ -46,3 +46,9 @@ I came to document intelligence through code intelligence.
 - [llamapreview-context-research](https://github.com/JetXu-LLM/llamapreview-context-research): formalizing the exact failure mode of **Context Instability**.
 
 This path started with helping AI understand code diffs, but led to a broader conclusion: the real computing frontier is shifting toward understanding full knowledge environments and generating high-stakes output from them. Code Mesh was the logical end of one inquiry, but not the final product surface.
+
+## Selected Writing
+
+- [The Hidden ChatGPT Plus Feature for Messy Office Files on Mac](/posts/docmason-llm-knowledge-base/)
+- [DocMason First Start](/docmason-first-start/)
+- [Drowning in AI Code Review Noise? A Framework to Measure Signal vs. Noise](/posts/low-noise-code-review/)

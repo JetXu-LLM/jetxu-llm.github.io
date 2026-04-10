@@ -5,7 +5,7 @@ order: 2
 
 ## 🚀 Featured Projects
 
-### DocMason — Local Evidence-First Knowledge Base
+### DocMason — Local, Evidence-First AI For Real Work Files
 
 <div style="border: 2px solid #0DAFC6; border-radius: 8px; padding: 1rem; margin-bottom: 1rem;">
   <h4 style="margin-top: 0;">
@@ -14,14 +14,17 @@ order: 2
     </a>
   </h4>
   <p>
-    A repo-native agent app for deep research over private work files (PDFs, PPTXs, XLSXs). Built to compile unstructured artifacts into knowledge infrastructure that agents can actually use.
+    Turns messy decks, spreadsheets, PDFs, and emails into a local knowledge base with traceable answers. Built for Mac users who already pay for ChatGPT Plus and need serious document work, not another chat-with-PDF toy.
   </p>
   <p>
-    <strong>🔑 Key Focus:</strong> Deterministic ingestion, reliable provenance-first retrieval, actionable output.
+    <strong>🔑 Key Focus:</strong> Preserve Office-native structure, surface buried evidence, and keep the work local.
     <br>
-    <strong>⚙️ Stack:</strong> Python, Agentic Frameworks, Local File Processing.
+    <strong>⚙️ Operating Model:</strong> The repo is the app. Codex is the runtime.
   </p>
   <div style="margin-top: 10px;">
+    <a href="https://github.com/JetXu-LLM/DocMason/releases/latest/download/DocMason-clean.zip" target="_blank" class="btn btn-outline-primary btn-sm"><i class="fas fa-download"></i> Download</a>
+    <a href="/posts/docmason-llm-knowledge-base/" class="btn btn-outline-primary btn-sm"><i class="fas fa-newspaper"></i> Launch Post</a>
+    <a href="/docmason-first-start/" class="btn btn-outline-primary btn-sm"><i class="fas fa-play-circle"></i> First Start</a>
     <a href="https://github.com/JetXu-LLM/DocMason" target="_blank" class="btn btn-outline-primary btn-sm"><i class="fab fa-github"></i> Repository</a>
   </div>
 </div>
