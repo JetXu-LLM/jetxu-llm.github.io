@@ -7,7 +7,6 @@ description: "Most ChatGPT Plus users never touch Codex. DocMason turns that unu
 image:
   path: https://img.youtube.com/vi/Sq3a5qxsLwM/maxresdefault.jpg
   alt: "DocMason hero video thumbnail"
-pin: true
 ---
 
 Most ChatGPT Plus users never open Codex.
