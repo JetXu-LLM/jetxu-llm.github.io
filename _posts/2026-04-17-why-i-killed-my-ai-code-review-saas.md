@@ -11,14 +11,14 @@ image:
 
 Over the last year, I built an AI code reviewer called [LlamaPReview](https://github.com/marketplace/llamapreview).
 
-The metrics validated the premise: 527 active GitHub App installations, over 4,000 repositories covered, and a measured 61% signal-to-noise ratio in a space notorious for false positives.
+The metrics validated the premise: 535 active GitHub App installations, over 4,000 repositories covered, and a measured 61% signal-to-noise ratio in a space notorious for false positives.
 
 The logical next step was obvious. The Stripe integration was ready. The plan for this month was to flip the switch on a paid tier for private repositories and transition into a proper Micro-SaaS.
 
 Instead, on May 1, 2026, I am pausing the private tier entirely and walking away.
 
 ![GitHub Marketplace traction for LlamaPReview](/assets/img/posts/2026-04-17-killed-ai-code-review-saas/marketplace-proof.png)
-_By April 2026, LlamaPReview had reached 527 active installs on GitHub Marketplace._
+_By April 2026, LlamaPReview had reached 535 active installs on GitHub Marketplace._
 
 ## The Paradigm Shift: Vibe Coding Changed the Math
 
