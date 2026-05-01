@@ -1,6 +1,6 @@
 ---
 title: "Vibe Coding Is Not Prompting. It Is Governance."
-date: 2026-05-01 18:30:00 +0800
+date: 2026-05-01 11:30:00 +0800
 categories: [Engineering, AI]
 tags: [vibe-coding, ai-agents, codex, github-copilot, agentic-development, docmason, dao-fa-qi-shu]
 description: "After building DocMason with AI agents, I stopped treating vibe coding as prompt craft. The durable layer is repository governance: Dao, Fa, Qi, Shu, AGENTS.md, skills, planning, verification, and closeout."
