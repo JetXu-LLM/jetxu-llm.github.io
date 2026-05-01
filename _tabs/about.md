@@ -49,6 +49,7 @@ This path started with helping AI understand code diffs, but led to a broader co
 
 ## Selected Writing
 
+- [Vibe Coding Is Not Prompting. It Is Governance.](/posts/vibe-coding-is-not-prompting-it-is-governance/)
 - [The Hidden ChatGPT Plus Feature for Messy Office Files on Mac](/posts/docmason-llm-knowledge-base/)
 - [DocMason First Start](/docmason-first-start/)
 - [Drowning in AI Code Review Noise? A Framework to Measure Signal vs. Noise](/posts/low-noise-code-review/)
