@@ -20,7 +20,7 @@ order: 4
 
 - **Now**: building [DocMason](https://github.com/JetXu-LLM/DocMason), a local-first, evidence-first knowledge base for AI-assisted deep research over private work files.
 - **Before**: built code-intelligence systems across [llama-github](https://github.com/JetXu-LLM/llama-github), [LlamaPReview](https://jetxu-llm.github.io/LlamaPReview-site/), and [repo-graph-rag](https://github.com/JetXu-LLM/repo-graph-rag).
-- **Direction**: the Mason ecosystem—moving from deep document analysis to generating native, consulting-grade presentations.
+- **Direction**: the Mason ecosystem—moving from deep document analysis to multi-stage pipelines that generate editable, consulting-grade native deliverables.
 
 ## Why This Path
 
@@ -34,7 +34,7 @@ Core architectural priorities:
 
 - **Deterministic ingestion**: parsing PDFs, decks, spreadsheets, emails, and repository-native text without silent failures.
 - **Reliable outputs**: provenance-first retrieval instead of vague, hallucination-prone document chat.
-- **Actionable output**: extending the Mason ecosystem beyond extraction. The next step is a deterministic pipeline that turns deep document analysis directly into native, consulting-grade presentations (PPTX) for serious white-collar work.
+- **Actionable output**: extending the Mason ecosystem beyond extraction. The next step is a deterministic, multi-stage pipeline separating semantic narratives from visual layout DOMs, turning deep document analysis directly into editable, consulting-grade native presentations (PPTX) for serious white-collar work.
 
 ## The Foundation
 
@@ -47,9 +47,16 @@ I came to document intelligence through code intelligence.
 
 This path started with helping AI understand code diffs, but led to a broader conclusion: the real computing frontier is shifting toward understanding full knowledge environments and generating high-stakes output from them. Code Mesh was the logical end of one inquiry, but not the final product surface.
 
+## The Pivot
+
+By late 2025, it became clear that reactive code review would not remain the terminal surface of AI engineering. As autonomous agents and "vibe coding" accelerated, the scarce problem was no longer commenting on diffs after the fact, but making sure the right constraints, context, and operating surfaces exist before generation happens.
+
+That shift is why I chose not to commercialize my earlier graph-based intelligence explorations, and instead focused on proactive context infrastructure and deterministic output pipelines.
+
 ## Selected Writing
 
+- [I Built repo-graph-rag Before the Code Graph Wave](/posts/i-built-repo-graph-rag-before-the-code-graph-wave/)
 - [Vibe Coding Is Not Prompting. It Is Governance.](/posts/vibe-coding-is-not-prompting-it-is-governance/)
+- [Why I Killed My AI Code Review SaaS (4,000+ Repos) Right Before Monetization](/posts/why-i-killed-my-ai-code-review-saas/)
 - [The Hidden ChatGPT Plus Feature for Messy Office Files on Mac](/posts/docmason-llm-knowledge-base/)
-- [DocMason First Start](/docmason-first-start/)
 - [Drowning in AI Code Review Noise? A Framework to Measure Signal vs. Noise](/posts/low-noise-code-review/)
