@@ -5,8 +5,8 @@ categories: [Engineering, AI]
 tags: [repo-graph-rag, code-review-graph, mcp, tree-sitter, static-analysis, ai-agents, context-engineering]
 description: "In early 2025 I started repo-graph-rag to build token-free, traversable repository intelligence. The recent code-graph wave validates the problem, but also explains why I moved upstream anyway."
 image:
-	path: /assets/img/posts/2026-05-05-repo-graph-rag-wave/cover.png
-	alt: "From raw repositories to structural graphs and the later code graph wave"
+  path: /assets/img/posts/2026-05-05-repo-graph-rag-wave/cover.png
+  alt: "From raw repositories to structural graphs and the later code graph wave"
 ---
 
 Watching [code-review-graph](https://github.com/tirth8205/code-review-graph) take off recently clarified something for me.
