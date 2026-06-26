@@ -1,0 +1,88 @@
+<svg width="1792" height="1008" viewBox="0 0 1792 1008" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">The digital staff engineer review loop</title>
+  <desc id="desc">A conceptual architecture showing how an enterprise-aware AI code reviewer gathers task intent, code changes, enterprise knowledge, platform context, deployment signals, and human expert input before producing a merge trust case.</desc>
+  <rect width="1792" height="1008" fill="#081015"/>
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#11232C"/>
+      <stop offset="1" stop-color="#0B151B"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#FFE0A1"/>
+      <stop offset="1" stop-color="#F2A12E"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect x="76" y="76" width="1640" height="856" rx="36" fill="url(#panel)" stroke="#2D5261" stroke-width="2"/>
+  <text x="118" y="140" fill="#F8F4E8" font-family="Inter, Helvetica, Arial, sans-serif" font-size="44" font-weight="700">The Digital Staff Engineer Review Loop</text>
+  <text x="118" y="184" fill="#9EB4BE" font-family="Inter, Helvetica, Arial, sans-serif" font-size="24">The next review layer must know the company, not just the diff.</text>
+
+  <g font-family="Inter, Helvetica, Arial, sans-serif">
+    <rect x="116" y="270" width="300" height="116" rx="20" fill="#0D1A21" stroke="#3A6D7D"/>
+    <text x="150" y="318" fill="#BFEFFF" font-size="26" font-weight="700">Task Intent</text>
+    <text x="150" y="354" fill="#8EA7B3" font-size="19">issue, prompt, plan</text>
+
+    <rect x="116" y="442" width="300" height="116" rx="20" fill="#0D1A21" stroke="#3A6D7D"/>
+    <text x="150" y="490" fill="#BFEFFF" font-size="26" font-weight="700">Code Change</text>
+    <text x="150" y="526" fill="#8EA7B3" font-size="19">diff, tests, CI, trace</text>
+
+    <rect x="116" y="614" width="300" height="116" rx="20" fill="#0D1A21" stroke="#3A6D7D"/>
+    <text x="150" y="662" fill="#BFEFFF" font-size="26" font-weight="700">Enterprise Law</text>
+    <text x="150" y="698" fill="#8EA7B3" font-size="19">standards, exceptions</text>
+
+    <rect x="520" y="270" width="320" height="116" rx="20" fill="#111A16" stroke="#C9963D"/>
+    <text x="554" y="318" fill="#FFE2A6" font-size="26" font-weight="700">Platform Context</text>
+    <text x="554" y="354" fill="#BAA77F" font-size="19">deploy topology, runtime</text>
+
+    <rect x="520" y="442" width="320" height="116" rx="20" fill="#111A16" stroke="#C9963D"/>
+    <text x="554" y="490" fill="#FFE2A6" font-size="26" font-weight="700">Operational Memory</text>
+    <text x="554" y="526" fill="#BAA77F" font-size="19">incidents, logs, owners</text>
+
+    <rect x="520" y="614" width="320" height="116" rx="20" fill="#111A16" stroke="#C9963D"/>
+    <text x="554" y="662" fill="#FFE2A6" font-size="26" font-weight="700">Human Experts</text>
+    <text x="554" y="698" fill="#BAA77F" font-size="19">ask, learn, preserve</text>
+
+    <rect x="980" y="324" width="350" height="352" rx="34" fill="#101A22" stroke="#71D6FF" stroke-width="3" filter="url(#glow)"/>
+    <text x="1032" y="392" fill="#E9FBFF" font-size="31" font-weight="800">Digital Staff</text>
+    <text x="1032" y="432" fill="#E9FBFF" font-size="31" font-weight="800">Engineer</text>
+    <text x="1032" y="486" fill="#9BC9D8" font-size="21">enterprise-aware reviewer</text>
+    <text x="1032" y="526" fill="#9BC9D8" font-size="21">platform-aware risk judge</text>
+    <text x="1032" y="566" fill="#9BC9D8" font-size="21">human-looped learner</text>
+    <circle cx="1160" cy="625" r="34" fill="#0B141A" stroke="#71D6FF" stroke-width="3"/>
+    <path d="M1142 624L1155 637L1179 604" stroke="#71D6FF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <rect x="1460" y="344" width="210" height="312" rx="28" fill="#201709" stroke="url(#gold)" stroke-width="4" filter="url(#glow)"/>
+    <text x="1497" y="418" fill="#FFE2A6" font-size="29" font-weight="800">Merge</text>
+    <text x="1497" y="456" fill="#FFE2A6" font-size="29" font-weight="800">Trust Case</text>
+    <text x="1498" y="516" fill="#D8B86F" font-size="19">intent match</text>
+    <text x="1498" y="552" fill="#D8B86F" font-size="19">risk map</text>
+    <text x="1498" y="588" fill="#D8B86F" font-size="19">open questions</text>
+    <text x="1498" y="624" fill="#D8B86F" font-size="19">merge verdict</text>
+  </g>
+
+  <g stroke-width="4" stroke-linecap="round" fill="none">
+    <path d="M416 328 C470 328 466 328 520 328" stroke="#71D6FF"/>
+    <path d="M416 500 C470 500 466 500 520 500" stroke="#71D6FF"/>
+    <path d="M416 672 C470 672 466 672 520 672" stroke="#71D6FF"/>
+    <path d="M840 328 C920 328 914 418 980 418" stroke="#F2A12E"/>
+    <path d="M840 500 C920 500 914 500 980 500" stroke="#F2A12E"/>
+    <path d="M840 672 C920 672 914 582 980 582" stroke="#F2A12E"/>
+    <path d="M1330 500 C1390 500 1400 500 1460 500" stroke="url(#gold)"/>
+  </g>
+
+  <g fill="#0B141A" stroke="#2D5261">
+    <circle cx="454" cy="328" r="8"/>
+    <circle cx="454" cy="500" r="8"/>
+    <circle cx="454" cy="672" r="8"/>
+    <circle cx="910" cy="418" r="8"/>
+    <circle cx="910" cy="500" r="8"/>
+    <circle cx="910" cy="582" r="8"/>
+    <circle cx="1396" cy="500" r="8"/>
+  </g>
+</svg>
