@@ -11,6 +11,14 @@ image:
 
 > **TL;DR:** The AI industry's pursuit of a single, omnipotent "God Model" is a dead end. Due to the mathematical paradoxes of RLHF and alignment, models are inevitably bifurcating into specialized hemispheres. We are seeing the rise of the **"Left Brain"** (GPT-5.5 / Opus 4.8 for logic, backend coding, and deep analysis) and the **"Right Brain"** (Gemini 3.1 Pro / Opus 4.6 for SVG design, PPTs, aesthetics, and creative writing). The future of AGI isn't one massive neural network; it is an **Agentic Frontal Lobe** orchestrating these highly biased, specialized models.
 
+## Update — July 15, 2026: Anthropic Measures Model-Level Behavioral Divergence
+
+On July 13, Anthropic published [*Claude's Values Across Models and Languages*](https://www.anthropic.com/research/claude-values-models-languages), a research report analyzing 309,815 subjective Claude.ai conversations across Sonnet 4.6, Opus 4.6, and Opus 4.7 in 20 languages. It found small but structured differences in expressed values: Sonnet 4.6 leaned warmer and more deferential, while Opus 4.7 leaned more cautious, rigorous, deep, and candid. Four value axes accounted for 15% of the variation after controlling for task, topic, and user-expressed values.
+
+This provides independent evidence for one narrow premise of this essay: frontier models can develop measurably different behavioral defaults rather than converging on a single profile. The [original version of this essay](https://github.com/JetXu-LLM/jetxu-llm.github.io/commit/eff71c7a89f67a31f4b31067d7c7ae730290f615) was publicly committed on June 3, before Anthropic's report.
+
+The report does not establish the stronger claims made here. It is observational rather than a same-prompt randomized comparison; it measures value expression, not task capability or work-product quality; and it does not test routing or heterogeneous orchestration. The result strengthens the empirical motivation for studying specialization. The case for a split-brain architecture still requires controlled, task-level evidence.
+
 ## Preface: The Research Behind This Post
 
 Before writing this deep-dive, I conducted an extensive community sentiment and technical benchmark survey across the mid-2026 frontier model ecosystem—primarily covering Anthropic's Claude Opus series, OpenAI's GPT-5.5, and Google's Gemini 3.1 Pro.
@@ -132,3 +140,6 @@ The observations in this post are grounded in real developer feedback and benchm
 3.  **The Opus 4.6 vs 4.8 Creative Divide:** Users highlighting how RLHF and "honesty" ruined creative writing in newer models.
     *   [Is it just me or is Opus 4.8 horrible for creative writing? (Reddit)](https://www.reddit.com/r/ClaudeAI/comments/1trmrn2/is_it_just_me_or_is_opus_48_horrible_for_creative/)
     *   [I hate that Opus 4.8 is honest (Reddit)](https://www.reddit.com/r/ClaudeAI/comments/1trd1cj/i_hate_that_opus_48_is_honest/)
+4.  **Model-Level Differences in Expressed Values:** Anthropic's large-scale observational analysis found small but structured differences across Claude models.
+    *   [Kearney, Matt, et al. "Claude's Values Across Models and Languages" (Anthropic research report, July 13, 2026)](https://www.anthropic.com/research/claude-values-models-languages)
+    *   [Methods appendix](https://cdn.sanity.io/files/4zrzovbb/website/02da7f28f74daa1be526d3ded451a4efc86bccdc.pdf)
